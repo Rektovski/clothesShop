@@ -17,7 +17,6 @@ export default function FooterHeader() {
 
     const changeHandler = (event) => {
         setForm({...form, [event.target.name]: event.target.value});
-        console.log(form);
     }
 
     const sendEmail = (event) => {
