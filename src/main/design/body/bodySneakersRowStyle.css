@@ -1,0 +1,69 @@
+.sneakers {
+    margin: 80px 0 80px 0;
+}
+
+.sneakersHeader {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Andale Mono", serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.sneakersUnderline {
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    background: black;
+}
+
+.sneakersItemRowSpace {
+    display: flex;
+    justify-content: center;
+}
+
+.sneakersItemRow {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sneakersItemSpace {
+    width: 250px;
+    height: 400px;
+    margin: 0 10px 0 10px;
+}
+
+.sneakersImage {
+    transition: all .3s ease-in-out;
+    height: 300px;
+}
+
+.sneakersImage:hover {
+    transition: .3s;
+    scale: 1.1;
+    border-radius: 43px 0 43px 0;
+}
+
+.sneakersTitle {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 60px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.sneakersBody {
+    font-family: 'Roboto Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.075em;
+    color: #000000;
+}

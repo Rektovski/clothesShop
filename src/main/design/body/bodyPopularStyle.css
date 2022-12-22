@@ -1,0 +1,93 @@
+.popular {
+    margin: 80px 0 80px 0;
+}
+
+.popularHeader {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Andale Mono", serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.popularUnderline {
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    background: black;
+}
+
+.popularItemRowSpace {
+    display: flex;
+    justify-content: center;
+}
+
+.popularItemRow {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.popularItemSpace {
+    width: 250px;
+    height: 400px;
+    margin: 0 10px 0 10px;
+}
+
+.popularImage {
+    transition: all .3s ease-in-out;
+}
+
+.popularImage:hover {
+    transition: .3s;
+    scale: 1.1;
+    border-radius: 43px 0 43px 0;
+}
+
+.popularTitle {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 60px;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.popularBody {
+    font-family: 'Roboto Condensed', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.075em;
+    color: #000000;
+}
+
+.bodyPopularBottomSpace {
+    position: relative;
+    top: 70%;
+    left: calc(50% - 100px);
+}
+
+.bodyPopularBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 200px;
+    color: #000000;
+    border: 2px solid #000000;
+    transition: all .3s ease-in-out;
+}
+
+.bodyPopularBottom:hover {
+    transition: .3s;
+    cursor: pointer;
+    background: brown;
+    color: #FFFFFF;
+    border: 2px solid gray;
+}

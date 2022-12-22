@@ -1,0 +1,91 @@
+.sneakersBackground {
+    background-image: url("sneakersBackground.png");
+    background-color: #cccccc;
+    height: 717px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sneakerCard {
+    position: relative;
+    width: 325px;
+    height: 400px;
+    left: calc(80% - 325px/2);
+    top: calc(60% - 400px/2);
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.cardTitle {
+    font-family: 'Roboto Mono', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #060D27;
+}
+
+.cardSecondaryTitle {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 46px;
+    color: #060D27;
+    margin: 10px 0 10px 0;
+}
+
+.cardBody {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.cardFooterSpace {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cardFooter {
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+
+.cardFooter:hover {
+    transition: .3s;
+    cursor: pointer;
+    border: 1px solid black;
+    border-top: 10px;
+    border-bottom: 10px;
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width: 1000px) {
+    .sneakerCardSpace {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .sneakerCard {
+        position: unset;
+        width: 325px;
+        height: 400px;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.25);
+        padding: 20px;
+    }
+}
+
